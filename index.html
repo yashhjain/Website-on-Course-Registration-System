@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Course Management System</title>
+    <link href="index.css" rel="stylesheet">
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+    <script src="index.js"></script>
+</head>
+<body>
+  
+<form method="POST">
+
+  <label>
+    <p class="label-txt">ENTER YOUR NAME</p>
+    <br>
+    <input type="text" class="input" name="name" id="name" >
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+    <div id="name_error">
+          
+    </div>
+  </label>
+  <br>
+  <label>
+        <p class="label-txt">ENTER PREFERRED USERNAME</p>
+        <br>
+        <input type="text" class="input" name="username" id="username">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+        <div id="username_error">
+
+        </div>
+  </label>
+  
+    <br>
+
+  <label>
+        <p class="label-txt">ENTER YOUR EMAIL</p>
+        <br>
+        <input type="text" class="input" name="email" id="email">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+        <div id="email_error">
+          
+        </div>
+  </label>
+  <br>
+  <label>
+    <p class="label-txt">ENTER YOUR PASSWORD</p>
+    <br>
+    <input type="password" class="input" name="password" id="password">
+    <div class="line-box">
+      <div class="line"></div>
+    </div>
+    <div id="password_error">
+          
+    </div>
+  </label>
+  <br>
+  <label>
+        <p class="label-txt">CONFIRM PASSWORD</p>
+        <br>
+        <input type="password" class="input" name="repassword" id="repassword">
+        <div class="line-box">
+          <div class="line"></div>
+        </div>
+        <div id="repassword_error">
+          
+        </div>
+  </label>
+  <br>
+  <button type="submit" id="submitbutton">submit</button>
+</form>
+
+<p>
+  Are you already registered?
+<a href="login.html">Login page</a></p>
+
+</body>
+</html>

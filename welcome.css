@@ -1,0 +1,57 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.bodycontent 
+{
+    width: 100%;
+    height: 600px
+}
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+/* Set black background color, white text and some padding */
+ footer {
+  background-color: #555;
+  color: white;	  
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;            /* Footer height */
+  }
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+}
+
+input[type=text] {
+  border: 2px solid lightslategrey;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+.nice_input{
+   display: inline-block;
+    float: left;
+    clear: left;
+    text-align: right;
+}
